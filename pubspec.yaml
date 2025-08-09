@@ -1,0 +1,33 @@
+name: sales_visitor_app
+description: اپلیکیشن مدیریت ویزیتورهای فروشگاهی
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+  shared_preferences: ^2.1.1
+  intl: ^0.18.1
+  flutter_map: ^5.0.0
+  latlong2: ^0.9.0
+  geolocator: ^9.0.2
+  http: ^0.13.5
+  url_launcher: ^6.1.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  
+  fonts:
+    - family: Vazir
+      fonts:
+        - asset: assets/fonts/Vazir.ttf
